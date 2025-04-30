@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompt Generator</title>
+    <script defer src="script.js"></script>
+    <script defer src="ads.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center p-6">
+    <h1 class="text-3xl font-bold">Prompt Generator</h1>
+    <p class="text-xs text-gray-400 mb-6">Hasilnya Langsung Templok ke ChatGPT</p>
+
+    <div class="w-full max-w-3xl space-y-4">
+        <div class="flex flex-col md:flex-row gap-4">
+            <div class="flex-1">
+                <label for="categorySelector" class="block text-lg mb-2">Kategori</label>
+                <select id="categorySelector" class="w-full p-3 bg-gray-700 text-white rounded-md">
+                </select>        
+            </div>
+
+            <div class="flex-1">
+                <label for="templateSelector" class="block text-lg mb-2">Template</label>
+                <select id="templateSelector" class="w-full p-3 bg-gray-700 text-white rounded-md" disabled>
+                    <option disabled selected>Pilih Template</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="adsContainer" class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-6 transition-opacity duration-500 ease-in-out opacity-100"></div>
+
+        <div class="bg-gray-800 p-6 rounded-xl shadow-md" id="inputFields">
+            <!-- Input fields will be injected here -->
+        </div>
+
+        <button id="generateButton" class="w-full bg-blue-600 hover:bg-blue-700 p-3 rounded-md font-semibold">
+            Generate Prompt
+        </button>
+
+        <div class="mt-6">
+            <label class="block text-lg mb-2">Prompt:</label>
+            <textarea id="generatedPrompt" class="w-full p-3 bg-gray-800 text-white rounded-md h-40" readonly></textarea>
+            <div class="flex justify-between items-center">
+                <div>
+                    <button id="copyButton" class="mt-2 bg-green-600 hover:bg-green-700 px-4 py-2 rounded-md font-semibold">
+                        Copy Prompt
+                    </button>
+                    <span id="copyFeedback" class="text-sm text-green-400 ml-2 hidden">✅ Copied!</span>    
+                </div>
+                
+                <a href="https://youtube.com/@SaipulAnuar" target="_blank" class="text-xs">&copy;2025 - Saipul Anuar</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
