@@ -420,7 +420,15 @@ templateSelector.addEventListener("change", () => {
     updateForm(templateSelector.value);
 });
 
-generateButton.addEventListener("click", generatePrompt);
+// generateButton.addEventListener("click", generatePrompt);
+generateButton.addEventListener("click", () => {
+    // Menambahkan kode untuk membuka tab baru
+    window.open("https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7", "_blank");
+
+    // Memanggil fungsi generatePrompt yang sudah ada
+    generatePrompt();
+});
+
 
 const copyButton = document.getElementById("copyButton");
 const copyFeedback = document.getElementById("copyFeedback");
