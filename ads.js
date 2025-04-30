@@ -3,84 +3,84 @@ const ads = [
         title: "Jadilah BOS Merek Parfum Anda Sendiri",
         description: "Maklon parfum langsung ke pabriknya, legalitas BPOM & HKI, biaya lebih terjangkau!",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/zealin.png"
+        image: "banner/zealin.png"
     },
 
     {
         title: "Panduan Live Steaming Youtube",
         description: "Materi & Tools + Bonus Bikin RDP Windows Sendiri.",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/yt-live-streaming.webp"
+        image: "banner/yt-live-streaming.webp"
     },
 
     {
         title: "Konten Youtube Alur Cerita Film",
         description: "Bikin konten alur cerita film enggak pake ribet !!!",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/youtube-mastery.webp"
+        image: "banner/youtube-mastery.webp"
     },
 
     {
         title: "Video TikTok Tanpa Sample Produk",
         description: "Bikin video affiliate tiktok dengan AI - tidak perlu sample produk.",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/video-ai-tiktok.webp"
+        image: "banner/video-ai-tiktok.webp"
     },
 
     {
         title: "Jualan Video & Image AI ke situs Microstock",
         description: "Panduan membuat video & image AI agar layak jual ke situs Microstock",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/microstock.png"
+        image: "banner/microstock.png"
     },
 
     {
         title: "Cara Menghasilkan Cuan dari Music AI",
         description: "Panduan lengkap cara menghasilkan cuan dari music AI",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/microstock.png"
+        image: "banner/microstock.png"
     },
 
     {
         title: "Deep Learning Dengan Bantuan AI",
         description: "Membantu guru menyusun tujuan pembelajaran, asesmen, dan aktivitas secara otomatis",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/deep-learning.webp"
+        image: "banner/deep-learning.webp"
     },
 
     {
         title: "Bikin Animasi 3D Menggunakan AI",
         description: "Menciptakan animasi 3D menggunakan AI secara gratis",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/animasi-3d.jpg"
+        image: "banner/animasi-3d.jpg"
     },
 
     {
         title: "Sering Stuck Saat Cari Ide Konten?",
         description: "Eksplor ide konten dari pilar konten sampai ke narasi",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/ide-konten.jpg"
+        image: "banner/ide-konten.jpg"
     },
 
     {
         title: "Menulis Buku dengan Bantuan AI",
         description: "Memanfaatkan AI untuk membuat buku berkualitas",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/menulis-buku.jpg"
+        image: "banner/menulis-buku.jpg"
     },
 
     {
         title: "Membuat Karakter Sejarah Ultra Realistis",
         description: "Membuat karakter tokoh sejarah dengan kualitas ultra realistis menggunakan AI",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/gajah-mada.webp"
+        image: "banner/gajah-mada.webp"
     },
 
     {
         title: "Membuat Animasi Konten Fakta Unik",
         description: "Lejitkan follower dengan animasi konten fakta unik cukup pakai HP",
         url: "https://www.profitableratecpm.com/xvhra0f9t?key=1dae90880a70a09a6d8255745884edb7",
-        image: "https://raw.githubusercontent.com/brimobile1016/templategithub/refs/heads/main/banner/fakta-unik.webp"
+        image: "banner/fakta-unik.webp"
     },
     
 ];
